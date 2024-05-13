@@ -1,0 +1,74 @@
+<main id="main" class="main">
+
+  <div class="pagetitle">
+    <h1>Dashboard</h1>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Dashboard</li>
+      </ol>
+    </nav>
+  </div><!-- End Page Title -->
+
+  <section class="section dashboard">
+    <div class="row">
+
+      <!-- Left side columns -->
+      <div class="col-lg-8">
+        <div class="row">
+
+          <!-- Sales Component -->
+          <div class="col-xxl-4 col-md-6">
+            <app-sales></app-sales>
+          </div><!-- Sales Component -->
+
+          <!-- Revenue Component -->
+          <div class="col-xxl-4 col-md-6">
+            <app-revenue></app-revenue>
+          </div><!-- End Revenue Component -->
+
+          <!-- Customer Component -->
+          <div class="col-12">
+            <app-customer></app-customer>
+          </div><!-- End Customer Component -->
+
+          <!-- Report Component -->
+          <div class="col-12">
+            <app-report></app-report>
+          </div><!-- End Report Component -->
+
+          <!-- Recent Sales -->
+          <div class="col-12">
+            <app-recent-sales></app-recent-sales>
+          </div><!-- End Recent Sales -->
+
+          <!-- Top Selling -->
+          <div class="col-12">
+            <app-top-selling></app-top-selling>
+          </div><!-- End Top Selling -->
+
+        </div>
+      </div><!-- End Left side columns -->
+
+      <!-- Right side columns -->
+      <div class="col-lg-4">
+
+        <!-- Recent Activity -->
+        <app-recent-activity></app-recent-activity>
+        <!-- End Recent Activity -->
+
+        <!-- Budget Report -->
+        <app-budget-report></app-budget-report><!-- End Budget Report -->
+
+        <!-- Website Traffic -->
+        <app-website-traffic>s</app-website-traffic><!-- End Website Traffic -->
+
+        <!-- News & Updates -->
+        <app-news-update-traffic></app-news-update-traffic><!-- End News & Updates -->
+
+      </div><!-- End Right side columns -->
+
+    </div>
+  </section>
+
+</main><!-- End #main -->
